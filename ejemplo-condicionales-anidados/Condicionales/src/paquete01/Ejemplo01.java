@@ -22,14 +22,14 @@ public class Ejemplo01 {
                 + "1. AND\n"
                 + "2. OR\n"
                 + "3. NOT");
-        opcion = entrada.nextInt();
+        opcion = entrada.nextInt(); // 3
         
-        if (opcion > 0 && opcion <= 3) {
-            if (opcion==1) {
+        if (opcion > 0 && opcion <= 3) { // 3>0 && 3 <= 3 >> true && true >> true
+            if (opcion==1) { //3 == 1 >> falso
                 System.out.printf("%s\n", "Trabajar con AND");
                 
             }else{
-                if (opcion==2) {
+                if (opcion==2) { // 3 == 3 >> falso
                     System.out.printf("%s\n", "Trabajar con OR");
                 }else{
                     // se asume opción = 3
@@ -44,3 +44,9 @@ public class Ejemplo01 {
     }
 
 }
+
+/*
+Para que el usuario pueda trabjar con AND debe ingresar el numero 1 ya que que 
+es mayor que 0 y menor que 3
+*/
+
