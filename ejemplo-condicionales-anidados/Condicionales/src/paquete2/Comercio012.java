@@ -33,7 +33,7 @@ public class Comercio012 {
 
         double sueldoFinal;
         
-        String nombreEmpresa;
+        String nombreComercio;
     
 
         System.out.println("Ingrese el nombre por favor");
@@ -45,8 +45,8 @@ public class Comercio012 {
         System.out.println("Ingrese la edad por favor");
         edad = entrada.nextInt();
         
-        System.out.println("Ingrese el nombre de la empresa por favor");
-        nombreEmpresa = entrada.nextLine();
+        System.out.println("Ingrese el nombre del comercio por favor");
+        nombreComercio = entrada.nextLine();
 
         System.out.println("Ingrese el sueldo básico por favor");
         sueldoBasico = entrada.nextDouble();
@@ -74,7 +74,7 @@ public class Comercio012 {
                     + "\tBono: $%.2f\n"
                     + "Adicional del seguro: $%.2f\n\n"
                     + "Sueldo final: $%.2f\n",
-                    nombreEmpresa,
+                    nombreComercio,
                     nombre,
                     apellido,
                     edad,
@@ -99,7 +99,7 @@ public class Comercio012 {
                         + "\tBono: $%.2f\n"
                         + "Adicional del seguro: $%.2f\n\n"
                         + "Sueldo final: $%.2f\n",
-                        nombreEmpresa,
+                        nombreComercio,
                         nombre,
                         apellido,
                         edad,
@@ -124,7 +124,7 @@ public class Comercio012 {
                             + "\tBono: $%.2f\n"
                             + "Adicional del seguro: $%.2f\n\n"
                             + "Sueldo final: $%.2f\n",
-                            nombreEmpresa,
+                            nombreComercio,
                             nombre,
                             apellido,
                             edad,
@@ -149,7 +149,7 @@ public class Comercio012 {
                                 + "\tBono: $%.2f\n"
                                 + "Adicional del seguro: $%.2f\n\n"
                                 + "Sueldo final: $%.2f\n",
-                                nombreEmpresa,
+                                nombreComercio,
                                 nombre,
                                 apellido,
                                 edad,
